@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/lytLayoutV1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="#555555"
+  android:padding="10dip" 
+  >
+  
+	<LinearLayout
+	  android:id="@+id/lytLayoutH3"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	  android:gravity="center_horizontal"
+	  >
+	 
+	    <ImageView android:id="@+id/imgIconoSpeak"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/mic" />
+	 
+	  
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH10"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	  android:gravity="center_horizontal"
+	   >
+	    
+		<TextView android:id="@+id/txtComandos"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FFFFFF"
+		        android:text="COMANDOS DE VOZ"
+		        android:paddingBottom="10dip" 
+		        android:paddingTop="10dip"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH1"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/imgIconoSearch"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/ic_action_search" />
+	 
+	    <TextView android:id="@+id/txtMensajeSearch"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text="'BUSCAR' para marcar un destino"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH2"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/imgIconoRuta"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/content_split" />
+	 
+	    <TextView android:id="@+id/txtMensajeRuta"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'NAVEGACIÓN' para comenzar la ruta"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH4"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/location_place"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/location_place" />
+	 
+	    <TextView android:id="@+id/txtMensajeRuta"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'PUNTOS DE INTERÉS' para buscar establecimientos"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH5"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/map_icon"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/location_map" />
+	 
+	    <TextView android:id="@+id/txtMensajeRuta"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'CAMBIAR VISTA' para cambiar el mapa"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH6"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/map_icon"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/location_map" />
+	 
+	    <TextView android:id="@+id/txtMensajeClear"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'LIMPIAR MAPA'"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH7"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/target_icon"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/device_access_location_searching" />
+	 
+	    <TextView android:id="@+id/txtMensajeArea"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'AREA DE BÚSQUEDA' para cambiar el radio"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH8"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/target_icon"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/device_access_location_searching" />
+	 
+	    <TextView android:id="@+id/txtMensajeCoord"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'OBTENER COORDENADAS'"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH9"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/place_icon"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/location_place" />
+	 
+	    <TextView android:id="@+id/txtMensajeCurrent"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'POSICIÓN ACTUAL'"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH10"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/place_car1"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/car" />
+	 
+	    <TextView android:id="@+id/txtMarcarCoche"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'HE APARCADO AQUÍ'"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutH11"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal"
+	   >
+	 
+	    <ImageView android:id="@+id/place_car2"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/car" />
+	 
+	    <TextView android:id="@+id/txtEncontrarCoche"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "'¿DÓNDE ESTÁ MI COCHE?'"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	
+	 
+</LinearLayout>

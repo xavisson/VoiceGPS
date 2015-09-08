@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VoiceGps</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_btn_find">Buscar</string>
+    <string name="str_btn_route">Ruta</string>
+    <string name="hnt_et_location">Introduzca un destino</string>
+    <string name="origin">Ubicación actual</string>
+    <string name="destination">Destino</string>
+    <string name="dist_time">Seleccione la ruta</string>
+    <string name="dialogo_linea">Elija el medio de transporte: automóvil, a pie o transporte público</string>
+    <string name="speak">Comience a hablar</string>
+    <string name="cadena_opciones1">Aeropuertos\nCajeros\nBancos\nGasolineras\nSupermercados\nDoctores
+        \nHospitales\nCines\nRestaurantes\nGalerías de arte\nBares\nEstaciones de autobús\nTaxi</string>
+    <string name="cadena_opciones2">Cafeterías\nBibliotecas\nMuseos\nParques\nParkings\nFarmacias\nUniversidades
+        \nComisarías\nCorreos\nColegios\nEstadios"\nEstaciones de metro\nEstaciones de tren</string>
+    
+    
+    
+    
+    
+    
+ 
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>gas_station</item>
+        <item>grocery_or_supermarket</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>movie_theater</item>
+        <item>restaurant</item>
+    </string-array>
+ 
+    <string-array name="place_type_name">
+        <item>Aeropuertos</item>
+        <item>Cajeros</item>
+        <item>Bancos</item>
+        <item>Gasolineras</item>
+        <item>Supermercados</item>
+        <item>Doctores</item>
+        <item>Hospitales</item>
+        <item>Cines</item>
+        <item>Restaurantes</item>
+    </string-array>
+
+</resources>

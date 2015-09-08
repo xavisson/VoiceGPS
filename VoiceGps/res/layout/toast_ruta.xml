@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/lytLayoutVR1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="#555555"
+  android:padding="10dip" >
+  
+	<LinearLayout
+	  android:id="@+id/lytLayoutHR1"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:paddingBottom="10dip" 
+	  android:paddingTop="10dip"
+	   >
+	 
+	    <ImageView android:id="@+id/imgCar"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/car" />
+	 
+	    <TextView android:id="@+id/txtMensajeCoche"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text="Coche"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutHR2"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:paddingBottom="10dip" 
+	  android:paddingTop="10dip"
+	   >
+	 
+	    <ImageView android:id="@+id/imgIconoBici"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/bike" />
+	 
+	    <TextView android:id="@+id/txtMensajeBici"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text="Bicicleta'"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:id="@+id/lytLayoutHR3"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:paddingBottom="10dip" 
+	  android:paddingTop="10dip"
+	   >
+	 
+	    <ImageView android:id="@+id/imgIconoCami"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/pedestrian" />
+	 
+	    <TextView android:id="@+id/txtMensajeCami"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        android:text= "Caminando"
+	        android:paddingLeft="10dip" />
+	</LinearLayout>
+	
+
+	 
+</LinearLayout>

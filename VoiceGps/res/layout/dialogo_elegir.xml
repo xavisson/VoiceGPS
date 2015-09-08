@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#555555"
+  	android:padding="5dip"  >
+ 
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    >
+    
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_launcher" 
+	        android:padding="10dp" />
+	        
+	     <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/dialogo_linea"
+	        android:textColor="#FFFFFF"
+	        android:padding="10dp" />
+     
+    </LinearLayout>
+     
+    
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+
+    <!-- walking button -->
+    <ImageView
+        android:id="@+id/imwalking"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="25dp"
+        android:src="@drawable/pedestrian"/>
+
+   <!-- bike button -->
+    <ImageView
+        android:id="@+id/imbike"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="25dp"
+        android:src="@drawable/bike"/>
+    
+   <!-- car button -->
+    <ImageView 
+        android:id="@+id/imcar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="25dp"
+        android:src="@drawable/car"/>
+        
+    </LinearLayout>
+ 
+ 
+</LinearLayout>
