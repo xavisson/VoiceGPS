@@ -1,5 +1,5 @@
 # VoiceGPS
-Get directions and places of interest using voice commands.
+With this Android project you can get directions and places of interest using voice commands.
 
 Click on 'info' to know the available voice commands.
 
